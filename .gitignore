@@ -1,25 +1,77 @@
+<<<<<<< HEAD
 # Dependencies
 node_modules/
 **/node_modules/
+jspm_packages/
+bower_components/
+.pnpm-store/
+web_modules/
 
 # Environment variables and secrets
 .env
 .env.*
 !.env.example
+.dev.vars
 
 # Cloudflare local development data
 .wrangler/
-.dev.vars
 
 # Build outputs
 dist/
 build/
 coverage/
+.next/
+out/
+.nuxt/
+.output/
+.svelte-kit/
+.vuepress/dist/
+.docusaurus/
+.astro/
 
 # Logs
+logs/
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# Operating system files
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing and coverage
+.nyc_output/
+*.lcov
+
+# Caches
+.cache/
+.parcel-cache/
+.grunt/
+.fusebox/
+.firebase/
+.turbo/
+.vite/
+.temp/
+
+# Package manager files
+.npm/
+.yarn-integrity
+.pnp.*
+
+# TypeScript
+*.tsbuildinfo
+
+# Editors and operating systems
+.vscode-test/
 .DS_Store
 Thumbs.db
+
+# Cloudflare / deployment
+.serverless/
+.dynamodb/
+.tern-port
+>>>>>>> origin/main
